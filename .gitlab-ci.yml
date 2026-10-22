@@ -1,0 +1,12 @@
+# Publie le site sur GitLab Pages à chaque push sur la branche par défaut.
+pages:
+  stage: deploy
+  image: alpine:3.20
+  script:
+    - mkdir -p public
+    - cp -r index.html assets data audio public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

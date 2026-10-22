@@ -1,0 +1,1134 @@
+{
+ "_aide": "Langues et enregistrements affichés dans la page. Pour ajouter une langue : ajoutez-la dans 'languages' (cls = 'syl' pour iso-syllabique, 'str' pour iso-accentuelle), puis ajoutez ses enregistrements dans 'clips'. Les enregistrements FLEURS partagent les mêmes phrases ('sent' = identifiant FLEURS, traduction anglaise dans 'sentences'). Une langue d'un autre corpus peut avoir ses propres phrases : 'sent' est alors un identifiant libre. Mettre \"hideText\": true sur une langue masque ses transcriptions (avec le message \"textNote\").",
+ "languages": [
+  {
+   "code": "fr_fr",
+   "name": "Français",
+   "short": "FR",
+   "cls": "syl",
+   "source": "fleurs"
+  },
+  {
+   "code": "es_419",
+   "name": "Espagnol",
+   "short": "ES",
+   "cls": "syl",
+   "source": "fleurs"
+  },
+  {
+   "code": "it_it",
+   "name": "Italien",
+   "short": "IT",
+   "cls": "syl",
+   "source": "fleurs"
+  },
+  {
+   "code": "en_us",
+   "name": "Anglais",
+   "short": "EN",
+   "cls": "str",
+   "source": "fleurs"
+  },
+  {
+   "code": "de_de",
+   "name": "Allemand",
+   "short": "DE",
+   "cls": "str",
+   "source": "fleurs"
+  },
+  {
+   "code": "ar_ma",
+   "name": "Arabe marocain",
+   "short": "MA",
+   "cls": "str",
+   "source": "dvoice",
+   "hideText": true,
+   "textNote": "Transcription DVoice non affichée : elle contient des erreurs."
+  }
+ ],
+ "sentences": [
+  {
+   "id": "1642",
+   "en": "The war expenditures of U.S. imperialism in the conquest of the Philippines were paid for by the Filipino people themselves."
+  },
+  {
+   "id": "1559",
+   "en": "Pronunciation is relatively easy in Italian since most words are pronounced exactly how they are written"
+  },
+  {
+   "id": "1625",
+   "en": "Famous singers across the country presented bhajans, or devotional songs, to Shri Shyam's feet."
+  },
+  {
+   "id": "1581",
+   "en": "The Amazon is also the widest river on Earth, at times six miles wide."
+  },
+  {
+   "id": "1659",
+   "en": "Scientists say the explosion caused by the collision was massive."
+  },
+  {
+   "id": "1612",
+   "en": "Water is spilling over the levee in a section 100 feet wide."
+  },
+  {
+   "id": "1567",
+   "en": "The largest tournament of the year takes place in December at the polo fields in Las Cañitas."
+  },
+  {
+   "id": "1530",
+   "en": "It had been scheduled to be cut down on Tuesday, but was saved after an emergency court ruling."
+  },
+  {
+   "id": "1587",
+   "en": "The first cases of the disease this season were reported in late July."
+  },
+  {
+   "id": "1624",
+   "en": "Inland waterways can be a good theme to base a holiday around."
+  },
+  {
+   "id": "1651",
+   "en": "An increasingly more popular option for those planning a gap-year is to travel and learn."
+  },
+  {
+   "id": "1599",
+   "en": "The original population hasn't changed at all, they still need the same adaptations as before."
+  },
+  {
+   "id": "1560",
+   "en": "As soon as you get out of the current, swimming back is no more difficult than normally."
+  },
+  {
+   "id": "1554",
+   "en": "He built a WiFi door bell, he said."
+  },
+  {
+   "id": "1577",
+   "en": "That didn't seem to make sense to me; it certainly wasn't fair."
+  },
+  {
+   "id": "1570",
+   "en": "It also had no authority to override tax laws and tariffs between states."
+  },
+  {
+   "id": "1521",
+   "en": "The satellite in space gets the call and then reflects it back down, almost instantly."
+  },
+  {
+   "id": "1578",
+   "en": "Then, Lakkha Singh took the lead in singing the bhajans."
+  },
+  {
+   "id": "1645",
+   "en": "Its all-pervading power affected everyone from king to commoner."
+  },
+  {
+   "id": "1553",
+   "en": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus."
+  },
+  {
+   "id": "1545",
+   "en": "A curry can be either \"dry\" or \"wet\" depending on the amount of liquid."
+  },
+  {
+   "id": "1572",
+   "en": "Three more bombs exploded near government buildings in a period of two hours."
+  },
+  {
+   "id": "1588",
+   "en": "According to police, the driver of the vehicle that hit the photographer is unlikely to face criminal charges."
+  },
+  {
+   "id": "1656",
+   "en": "Police said that the body appeared to have been there for about a day."
+  },
+  {
+   "id": "1534",
+   "en": "Combined with its relative inaccessibility, \"Timbuktu\" has come to be used as a metaphor for exotic, distant lands."
+  },
+  {
+   "id": "1636",
+   "en": "The Spaniards started the colonization period which lasted for three centuries."
+  },
+  {
+   "id": "1576",
+   "en": "A course will normally cover all the issues discussed here in far greater detail, usually with practical experience."
+  },
+  {
+   "id": "1561",
+   "en": "Most districts are served by small Japanese Coaster Buses, which are comfortable and sturdy."
+  },
+  {
+   "id": "1511",
+   "en": "Soon, officers equipped with riot gear entered the yard and cornered the inmates with tear gas."
+  },
+  {
+   "id": "1640",
+   "en": "On icy and snowy roadways, friction is low and you cannot drive as if you were on bare asphalt."
+  },
+  {
+   "id": "1517",
+   "en": "Research in AI involves making machines to automate tasks that require intelligent behavior."
+  },
+  {
+   "id": "1551",
+   "en": "They are still trying to determine just how large the crash was and how the Earth will be affected."
+  },
+  {
+   "id": "1629",
+   "en": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known."
+  },
+  {
+   "id": "1606",
+   "en": "The Portuguese destroyed it and rebuilt it under the name Casa Branca, only to abandon it after an earthquake in 1755."
+  },
+  {
+   "id": "1607",
+   "en": "It's worth half an hour to stroll about the intriguing village."
+  },
+  {
+   "id": "1654",
+   "en": "I don't know if you realize it or not, but most of the goods from Central America came into this country duty-free."
+  },
+  {
+   "id": "1552",
+   "en": "The result of plotting analysis will be posted to a public website."
+  },
+  {
+   "id": "1610",
+   "en": "Such things have become separate disciplines, which focus on providing solutions to real life problems."
+  },
+  {
+   "id": "1652",
+   "en": "The major religion in Moldova is Orthodox Christian."
+  },
+  {
+   "id": "1628",
+   "en": "Handicraft products might be defined as antiques, though they are younger than similar mass-produced goods."
+  }
+ ],
+ "clips": [
+  {
+   "id": "fr_fr_01",
+   "lang": "fr_fr",
+   "sent": "1642",
+   "text": "Les dépenses de guerre de l'impérialisme américain dans la conquête des Philippines ont été payées par le peuple philippin lui-même.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_01.mp3",
+   "source_file": "5411678530596209717.wav",
+   "selection": {
+    "pV": 64.2,
+    "varcoV": 48.6,
+    "nPVIv": 54.7,
+    "dC": 35.9
+   }
+  },
+  {
+   "id": "fr_fr_02",
+   "lang": "fr_fr",
+   "sent": "1559",
+   "text": "La prononciation est relativement facile en italien, car la plupart des mots sont prononcés exactement comme ils sont écrits",
+   "gender": "FEMALE",
+   "file": "audio/fr_fr_02.mp3",
+   "source_file": "14468638584426924317.wav",
+   "selection": {
+    "pV": 53.8,
+    "varcoV": 43.2,
+    "nPVIv": 51.4,
+    "dC": 35.6
+   }
+  },
+  {
+   "id": "fr_fr_03",
+   "lang": "fr_fr",
+   "sent": "1625",
+   "text": "Des chanteurs célèbres dans tout le pays ont présenté des bhajans, ou chants de dévotion, aux pieds de Shri Shyam.",
+   "gender": "FEMALE",
+   "file": "audio/fr_fr_03.mp3",
+   "source_file": "5992216071413521711.wav",
+   "selection": {
+    "pV": 62.4,
+    "varcoV": 66.9,
+    "nPVIv": 56.9,
+    "dC": 37.9
+   }
+  },
+  {
+   "id": "fr_fr_04",
+   "lang": "fr_fr",
+   "sent": "1581",
+   "text": "L'Amazone est également le fleuve le plus large de la planète, atteignant parfois 10 km de large.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_04.mp3",
+   "source_file": "580324696948961796.wav",
+   "selection": {
+    "pV": 61.2,
+    "varcoV": 56.9,
+    "nPVIv": 78.8,
+    "dC": 29.0
+   }
+  },
+  {
+   "id": "fr_fr_05",
+   "lang": "fr_fr",
+   "sent": "1659",
+   "text": "Les scientifiques affirment que l'explosion causée par la collision a été massive.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_05.mp3",
+   "source_file": "9404088918981047258.wav",
+   "selection": {
+    "pV": 54.6,
+    "varcoV": 51.5,
+    "nPVIv": 39.2,
+    "dC": 63.1
+   }
+  },
+  {
+   "id": "fr_fr_06",
+   "lang": "fr_fr",
+   "sent": "1612",
+   "text": "L'eau se déverse sur la digue dans une section de 100 pieds de large.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_06.mp3",
+   "source_file": "5404319582598438880.wav",
+   "selection": {
+    "pV": 66.9,
+    "varcoV": 47.2,
+    "nPVIv": 71.7,
+    "dC": 66.0
+   }
+  },
+  {
+   "id": "fr_fr_07",
+   "lang": "fr_fr",
+   "sent": "1567",
+   "text": "Le plus grand tournoi de l'année se déroule en décembre sur les terrains de polo de Las Cañitas.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_07.mp3",
+   "source_file": "15192026038673823959.wav",
+   "selection": {
+    "pV": 62.0,
+    "varcoV": 62.4,
+    "nPVIv": 55.5,
+    "dC": 56.4
+   }
+  },
+  {
+   "id": "fr_fr_08",
+   "lang": "fr_fr",
+   "sent": "1530",
+   "text": "Il devait être abattu mardi, mais il a été sauvé suite à une décision d'urgence du tribunal.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_08.mp3",
+   "source_file": "1208718371230058980.wav",
+   "selection": {
+    "pV": 61.4,
+    "varcoV": 66.3,
+    "nPVIv": 54.7,
+    "dC": 52.5
+   }
+  },
+  {
+   "id": "fr_fr_09",
+   "lang": "fr_fr",
+   "sent": "1587",
+   "text": "Les premiers cas de cette maladie saisonnière ont été déclarés fin juillet.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_09.mp3",
+   "source_file": "15610055106047162519.wav",
+   "selection": {
+    "pV": 65.9,
+    "varcoV": 60.0,
+    "nPVIv": 74.9,
+    "dC": 49.8
+   }
+  },
+  {
+   "id": "fr_fr_10",
+   "lang": "fr_fr",
+   "sent": "1624",
+   "text": "Les voies navigables intérieures peuvent être un excellent thème pour des vacances.",
+   "gender": "MALE",
+   "file": "audio/fr_fr_10.mp3",
+   "source_file": "12578790304113190442.wav",
+   "selection": {
+    "pV": 62.9,
+    "varcoV": 62.8,
+    "nPVIv": 61.4,
+    "dC": 53.2
+   }
+  },
+  {
+   "id": "es_419_01",
+   "lang": "es_419",
+   "sent": "1651",
+   "text": "Combinar viaje y aprendizaje se ha vuelto una opción muy popular entre aquellos que planean tomarse un año sabático.",
+   "gender": "FEMALE",
+   "file": "audio/es_419_01.mp3",
+   "source_file": "15070404026815095185.wav",
+   "selection": {
+    "pV": 64.2,
+    "varcoV": 56.1,
+    "nPVIv": 57.0,
+    "dC": 36.0
+   }
+  },
+  {
+   "id": "es_419_02",
+   "lang": "es_419",
+   "sent": "1599",
+   "text": "No se han producido cambios en la población original, que aún precisan de las mismas adaptaciones que en el pasado.",
+   "gender": "MALE",
+   "file": "audio/es_419_02.mp3",
+   "source_file": "636242247147479250.wav",
+   "selection": {
+    "pV": 61.0,
+    "varcoV": 57.2,
+    "nPVIv": 63.2,
+    "dC": 33.3
+   }
+  },
+  {
+   "id": "es_419_03",
+   "lang": "es_419",
+   "sent": "1560",
+   "text": "En cuanto logre escapar de la corriente, nadar de regreso no serán más complejo de lo habitual.",
+   "gender": "MALE",
+   "file": "audio/es_419_03.mp3",
+   "source_file": "4206903055369373829.wav",
+   "selection": {
+    "pV": 66.2,
+    "varcoV": 61.5,
+    "nPVIv": 77.1,
+    "dC": 27.2
+   }
+  },
+  {
+   "id": "es_419_04",
+   "lang": "es_419",
+   "sent": "1625",
+   "text": "Reconocidos cantantes nacionales interpretaron bhajans, o canciones de devoción, a los pies del Shri Shyam.",
+   "gender": "FEMALE",
+   "file": "audio/es_419_04.mp3",
+   "source_file": "17763766420551874209.wav",
+   "selection": {
+    "pV": 62.9,
+    "varcoV": 55.4,
+    "nPVIv": 70.5,
+    "dC": 45.9
+   }
+  },
+  {
+   "id": "es_419_05",
+   "lang": "es_419",
+   "sent": "1554",
+   "text": "Él dijo que construyó un timbre wifi.",
+   "gender": "MALE",
+   "file": "audio/es_419_05.mp3",
+   "source_file": "13392988470145802268.wav",
+   "selection": {
+    "pV": 62.1,
+    "varcoV": 92.0,
+    "nPVIv": 49.1,
+    "dC": 29.2
+   }
+  },
+  {
+   "id": "es_419_06",
+   "lang": "es_419",
+   "sent": "1587",
+   "text": "Los primeros casos de la enfermedad durante esta temporada se registraron hacia fines de julio.",
+   "gender": "FEMALE",
+   "file": "audio/es_419_06.mp3",
+   "source_file": "9072175803483717623.wav",
+   "selection": {
+    "pV": 61.9,
+    "varcoV": 63.6,
+    "nPVIv": 89.4,
+    "dC": 22.1
+   }
+  },
+  {
+   "id": "es_419_07",
+   "lang": "es_419",
+   "sent": "1577",
+   "text": "A mí me pareció que eso no tenía sentido; definitivamente no fue justo.",
+   "gender": "MALE",
+   "file": "audio/es_419_07.mp3",
+   "source_file": "7945153341629744668.wav",
+   "selection": {
+    "pV": 57.9,
+    "varcoV": 69.3,
+    "nPVIv": 49.4,
+    "dC": 47.7
+   }
+  },
+  {
+   "id": "es_419_08",
+   "lang": "es_419",
+   "sent": "1570",
+   "text": "Tampoco estaba facultado para anular leyes fiscales o aranceles entre estados.",
+   "gender": "MALE",
+   "file": "audio/es_419_08.mp3",
+   "source_file": "12567461606544247708.wav",
+   "selection": {
+    "pV": 51.7,
+    "varcoV": 53.2,
+    "nPVIv": 48.9,
+    "dC": 53.3
+   }
+  },
+  {
+   "id": "es_419_09",
+   "lang": "es_419",
+   "sent": "1521",
+   "text": "El satélite en el espacio recibe la llamada y, luego, la refleja de vuelta casi de forma instantánea.",
+   "gender": "MALE",
+   "file": "audio/es_419_09.mp3",
+   "source_file": "11179802567689743723.wav",
+   "selection": {
+    "pV": 54.4,
+    "varcoV": 65.5,
+    "nPVIv": 57.8,
+    "dC": 40.2
+   }
+  },
+  {
+   "id": "es_419_10",
+   "lang": "es_419",
+   "sent": "1578",
+   "text": "Después de eso, Lakkha Singh pasó al frente para cantar los bhajans.",
+   "gender": "FEMALE",
+   "file": "audio/es_419_10.mp3",
+   "source_file": "4154247550451398216.wav",
+   "selection": {
+    "pV": 46.4,
+    "varcoV": 48.1,
+    "nPVIv": 63.3,
+    "dC": 40.8
+   }
+  },
+  {
+   "id": "it_it_01",
+   "lang": "it_it",
+   "sent": "1624",
+   "text": "I corsi d'acqua dell'entroterra possono essere un ottimo tema intorno a cui organizzare una vacanza.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_01.mp3",
+   "source_file": "16237339470176594934.wav",
+   "selection": {
+    "pV": 64.3,
+    "varcoV": 61.8,
+    "nPVIv": 44.8,
+    "dC": 40.9
+   }
+  },
+  {
+   "id": "it_it_02",
+   "lang": "it_it",
+   "sent": "1645",
+   "text": "Il suo potere onnipresente ha influenzato chiunque, dal re ai cittadini comuni.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_02.mp3",
+   "source_file": "2264072137055599159.wav",
+   "selection": {
+    "pV": 60.0,
+    "varcoV": 61.5,
+    "nPVIv": 64.8,
+    "dC": 35.0
+   }
+  },
+  {
+   "id": "it_it_03",
+   "lang": "it_it",
+   "sent": "1553",
+   "text": "Il Natale rappresenta una delle feste più importanti del cristianesimo e celebra la nascita di Gesù.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_03.mp3",
+   "source_file": "10887869216507576611.wav",
+   "selection": {
+    "pV": 61.7,
+    "varcoV": 67.7,
+    "nPVIv": 77.0,
+    "dC": 33.6
+   }
+  },
+  {
+   "id": "it_it_04",
+   "lang": "it_it",
+   "sent": "1659",
+   "text": "Gli scienziati sostengono che la collisione ha provocato un'esplosione imponente.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_04.mp3",
+   "source_file": "12290016523510447944.wav",
+   "selection": {
+    "pV": 57.1,
+    "varcoV": 64.1,
+    "nPVIv": 58.0,
+    "dC": 51.5
+   }
+  },
+  {
+   "id": "it_it_05",
+   "lang": "it_it",
+   "sent": "1545",
+   "text": "Il curry può presentarsi sia \"secco\" che \"umido\", in base alla quantità di liquido contenuta.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_05.mp3",
+   "source_file": "6528751261732211894.wav",
+   "selection": {
+    "pV": 62.1,
+    "varcoV": 71.3,
+    "nPVIv": 76.5,
+    "dC": 38.1
+   }
+  },
+  {
+   "id": "it_it_06",
+   "lang": "it_it",
+   "sent": "1572",
+   "text": "Nel giro di due ore sono esplose altre tre bombe nelle vicinanze degli edifici governativi.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_06.mp3",
+   "source_file": "11408544906579366318.wav",
+   "selection": {
+    "pV": 61.8,
+    "varcoV": 70.7,
+    "nPVIv": 61.2,
+    "dC": 57.1
+   }
+  },
+  {
+   "id": "it_it_07",
+   "lang": "it_it",
+   "sent": "1588",
+   "text": "Secondo la polizia, è poco probabile che il conducente dell'auto che ha investito il fotografo subisca accuse penali.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_07.mp3",
+   "source_file": "1488402196001055451.wav",
+   "selection": {
+    "pV": 57.8,
+    "varcoV": 67.1,
+    "nPVIv": 78.8,
+    "dC": 43.8
+   }
+  },
+  {
+   "id": "it_it_08",
+   "lang": "it_it",
+   "sent": "1578",
+   "text": "Poi, Lakkha Singh ha preso l'iniziativa iniziando a cantare i bhajan.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_08.mp3",
+   "source_file": "14723987421173351301.wav",
+   "selection": {
+    "pV": 58.3,
+    "varcoV": 58.9,
+    "nPVIv": 82.5,
+    "dC": 49.8
+   }
+  },
+  {
+   "id": "it_it_09",
+   "lang": "it_it",
+   "sent": "1656",
+   "text": "Secondo la polizia, il corpo sembrava essere lì da un giorno circa.",
+   "gender": "FEMALE",
+   "file": "audio/it_it_09.mp3",
+   "source_file": "8834101897010815971.wav",
+   "selection": {
+    "pV": 57.7,
+    "varcoV": 66.4,
+    "nPVIv": 60.4,
+    "dC": 61.1
+   }
+  },
+  {
+   "id": "it_it_10",
+   "lang": "it_it",
+   "sent": "1534",
+   "text": "Anche in conseguenza della sua relativa inaccessibilità, \"Timbuctù\" ha finito per diventare metafora di terra esotica e lontana.",
+   "gender": "MALE",
+   "file": "audio/it_it_10.mp3",
+   "source_file": "12569448307980571561.wav",
+   "selection": {
+    "pV": 55.2,
+    "varcoV": 63.6,
+    "nPVIv": 62.3,
+    "dC": 58.3
+   }
+  },
+  {
+   "id": "en_us_01",
+   "lang": "en_us",
+   "sent": "1636",
+   "text": "The Spaniards started the colonization period which lasted for three centuries.",
+   "gender": "MALE",
+   "file": "audio/en_us_01.mp3",
+   "source_file": "9222509738340872650.wav",
+   "selection": {
+    "pV": 48.8,
+    "varcoV": 77.4,
+    "nPVIv": 97.7,
+    "dC": 77.5
+   }
+  },
+  {
+   "id": "en_us_02",
+   "lang": "en_us",
+   "sent": "1576",
+   "text": "A course will normally cover all the issues discussed here in far greater detail, usually with practical experience.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_02.mp3",
+   "source_file": "6290870196809659244.wav",
+   "selection": {
+    "pV": 50.4,
+    "varcoV": 87.7,
+    "nPVIv": 63.5,
+    "dC": 70.9
+   }
+  },
+  {
+   "id": "en_us_03",
+   "lang": "en_us",
+   "sent": "1577",
+   "text": "That didn't seem to make sense to me; it certainly wasn't fair.",
+   "gender": "MALE",
+   "file": "audio/en_us_03.mp3",
+   "source_file": "5682670818231670031.wav",
+   "selection": {
+    "pV": 63.7,
+    "varcoV": 90.4,
+    "nPVIv": 108.4,
+    "dC": 53.1
+   }
+  },
+  {
+   "id": "en_us_04",
+   "lang": "en_us",
+   "sent": "1561",
+   "text": "Most districts are served by small Japanese Coaster Buses, which are comfortable and sturdy.",
+   "gender": "MALE",
+   "file": "audio/en_us_04.mp3",
+   "source_file": "16257945526208770570.wav",
+   "selection": {
+    "pV": 48.9,
+    "varcoV": 84.4,
+    "nPVIv": 67.8,
+    "dC": 64.8
+   }
+  },
+  {
+   "id": "en_us_05",
+   "lang": "en_us",
+   "sent": "1511",
+   "text": "Soon, officers equipped with riot gear entered the yard and cornered the inmates with tear gas.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_05.mp3",
+   "source_file": "12204437526850617043.wav",
+   "selection": {
+    "pV": 49.2,
+    "varcoV": 82.8,
+    "nPVIv": 78.0,
+    "dC": 51.0
+   }
+  },
+  {
+   "id": "en_us_06",
+   "lang": "en_us",
+   "sent": "1640",
+   "text": "On icy and snowy roadways, friction is low and you cannot drive as if you were on bare asphalt.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_06.mp3",
+   "source_file": "3907900566906015878.wav",
+   "selection": {
+    "pV": 55.3,
+    "varcoV": 67.8,
+    "nPVIv": 83.6,
+    "dC": 71.8
+   }
+  },
+  {
+   "id": "en_us_07",
+   "lang": "en_us",
+   "sent": "1517",
+   "text": "Research in AI involves making machines to automate tasks that require intelligent behavior.",
+   "gender": "MALE",
+   "file": "audio/en_us_07.mp3",
+   "source_file": "6983458379047535092.wav",
+   "selection": {
+    "pV": 48.3,
+    "varcoV": 60.7,
+    "nPVIv": 75.1,
+    "dC": 72.2
+   }
+  },
+  {
+   "id": "en_us_08",
+   "lang": "en_us",
+   "sent": "1551",
+   "text": "They are still trying to determine just how large the crash was and how the Earth will be affected.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_08.mp3",
+   "source_file": "9914600671714805470.wav",
+   "selection": {
+    "pV": 47.6,
+    "varcoV": 63.5,
+    "nPVIv": 85.2,
+    "dC": 58.9
+   }
+  },
+  {
+   "id": "en_us_09",
+   "lang": "en_us",
+   "sent": "1629",
+   "text": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_09.mp3",
+   "source_file": "10835833846156512763.wav",
+   "selection": {
+    "pV": 51.5,
+    "varcoV": 80.3,
+    "nPVIv": 78.0,
+    "dC": 55.2
+   }
+  },
+  {
+   "id": "en_us_10",
+   "lang": "en_us",
+   "sent": "1606",
+   "text": "The Portuguese destroyed it and rebuilt it under the name Casa Branca, only to abandon it after an earthquake in 1755.",
+   "gender": "FEMALE",
+   "file": "audio/en_us_10.mp3",
+   "source_file": "2866207319892896064.wav",
+   "selection": {
+    "pV": 47.1,
+    "varcoV": 80.5,
+    "nPVIv": 58.0,
+    "dC": 63.0
+   }
+  },
+  {
+   "id": "de_de_01",
+   "lang": "de_de",
+   "sent": "1577",
+   "text": "Das erschien mir nicht sinnvoll; es war ganz gewiss nicht fair.",
+   "gender": "MALE",
+   "file": "audio/de_de_01.mp3",
+   "source_file": "7572277587892349692.wav",
+   "selection": {
+    "pV": 39.8,
+    "varcoV": 107.7,
+    "nPVIv": 59.2,
+    "dC": 70.7
+   }
+  },
+  {
+   "id": "de_de_02",
+   "lang": "de_de",
+   "sent": "1607",
+   "text": "Es lohnt sich, eine halbe Stunde durch das faszinierende Dorf zu bummeln.",
+   "gender": "MALE",
+   "file": "audio/de_de_02.mp3",
+   "source_file": "9361064480694838508.wav",
+   "selection": {
+    "pV": 52.5,
+    "varcoV": 96.2,
+    "nPVIv": 89.3,
+    "dC": 68.2
+   }
+  },
+  {
+   "id": "de_de_03",
+   "lang": "de_de",
+   "sent": "1560",
+   "text": "Wenn man aus der Strömung herauskommt, ist das Zurückschwimmen nicht schwieriger als normal.",
+   "gender": "MALE",
+   "file": "audio/de_de_03.mp3",
+   "source_file": "2253709006881447103.wav",
+   "selection": {
+    "pV": 50.4,
+    "varcoV": 76.3,
+    "nPVIv": 77.4,
+    "dC": 79.3
+   }
+  },
+  {
+   "id": "de_de_04",
+   "lang": "de_de",
+   "sent": "1654",
+   "text": "Ich weiß nicht, ob Sie das wussten, aber die meisten Waren aus Mittelamerika kamen zollfrei in unser Land.",
+   "gender": "MALE",
+   "file": "audio/de_de_04.mp3",
+   "source_file": "7824910998501694495.wav",
+   "selection": {
+    "pV": 51.3,
+    "varcoV": 83.2,
+    "nPVIv": 78.7,
+    "dC": 72.2
+   }
+  },
+  {
+   "id": "de_de_05",
+   "lang": "de_de",
+   "sent": "1599",
+   "text": "Die ursprüngliche Population hat sich überhaupt nicht verändert. Sie braucht noch immer dieselben Anpassungen wie zuvor.",
+   "gender": "MALE",
+   "file": "audio/de_de_05.mp3",
+   "source_file": "17193269426431743622.wav",
+   "selection": {
+    "pV": 50.1,
+    "varcoV": 71.0,
+    "nPVIv": 107.5,
+    "dC": 51.0
+   }
+  },
+  {
+   "id": "de_de_06",
+   "lang": "de_de",
+   "sent": "1552",
+   "text": "Das Ergebnis der Plotting-Analyse wird auf einer öffentlichen Website publiziert.",
+   "gender": "MALE",
+   "file": "audio/de_de_06.mp3",
+   "source_file": "7016438650494120495.wav",
+   "selection": {
+    "pV": 48.3,
+    "varcoV": 78.5,
+    "nPVIv": 75.5,
+    "dC": 67.2
+   }
+  },
+  {
+   "id": "de_de_07",
+   "lang": "de_de",
+   "sent": "1610",
+   "text": "Solche Dinge sind zu eigenständigen Disziplinen geworden, die sich darauf konzentrieren, Lösungen für Probleme des wirklichen Lebens zu finden.",
+   "gender": "MALE",
+   "file": "audio/de_de_07.mp3",
+   "source_file": "14430855327496652040.wav",
+   "selection": {
+    "pV": 54.4,
+    "varcoV": 83.1,
+    "nPVIv": 94.9,
+    "dC": 56.0
+   }
+  },
+  {
+   "id": "de_de_08",
+   "lang": "de_de",
+   "sent": "1570",
+   "text": "Er hatte zudem keine Befugnis, Steuergesetze und Zölle zwischen Bundesstaaten außer Kraft zu setzen.",
+   "gender": "MALE",
+   "file": "audio/de_de_08.mp3",
+   "source_file": "6762223755389087710.wav",
+   "selection": {
+    "pV": 44.0,
+    "varcoV": 79.4,
+    "nPVIv": 67.9,
+    "dC": 62.7
+   }
+  },
+  {
+   "id": "de_de_09",
+   "lang": "de_de",
+   "sent": "1652",
+   "text": "Die wichtigste Religion in Moldawien ist die christlich-orthodoxe.",
+   "gender": "MALE",
+   "file": "audio/de_de_09.mp3",
+   "source_file": "4748768678928183760.wav",
+   "selection": {
+    "pV": 49.2,
+    "varcoV": 107.3,
+    "nPVIv": 57.0,
+    "dC": 49.9
+   }
+  },
+  {
+   "id": "de_de_10",
+   "lang": "de_de",
+   "sent": "1628",
+   "text": "Handgefertigte Produkte könnten als „antik“ bezeichnet werden, obwohl sie jünger als ähnliche Erzeugnisse aus Massenproduktion sind.",
+   "gender": "MALE",
+   "file": "audio/de_de_10.mp3",
+   "source_file": "16711964282404515691.wav",
+   "selection": {
+    "pV": 46.1,
+    "varcoV": 80.9,
+    "nPVIv": 71.9,
+    "dC": 54.0
+   }
+  },
+  {
+   "id": "ar_ma_01",
+   "lang": "ar_ma",
+   "sent": "dv_5bc43286-c1a7-4951-a447-a53521d8b780",
+   "text": "تاريخ المقاومه المسلحه حول العالم",
+   "gender": "MALE",
+   "file": "audio/ar_ma_01.mp3",
+   "source_file": "5bc43286-c1a7-4951-a447-a53521d8b780",
+   "selection": {
+    "pV": 52.0,
+    "varcoV": 99.2,
+    "nPVIv": 127.9,
+    "dC": 75.3
+   },
+   "gender_source": "F0",
+   "f0": 119
+  },
+  {
+   "id": "ar_ma_02",
+   "lang": "ar_ma",
+   "sent": "dv_1916689c-4699-4a76-bd89-f2a3e43d6ede",
+   "text": "اقوم وشاهد ما اعرف شنو طار الله",
+   "gender": "MALE",
+   "file": "audio/ar_ma_02.mp3",
+   "source_file": "1916689c-4699-4a76-bd89-f2a3e43d6ede",
+   "selection": {
+    "pV": 55.1,
+    "varcoV": 100.2,
+    "nPVIv": 128.3,
+    "dC": 78.6
+   },
+   "gender_source": "F0",
+   "f0": 122
+  },
+  {
+   "id": "ar_ma_03",
+   "lang": "ar_ma",
+   "sent": "dv_75225cc2-7050-4482-920a-0c809fbc01b1",
+   "text": "بس ما تشتغل لوسي فورت",
+   "gender": "MALE",
+   "file": "audio/ar_ma_03.mp3",
+   "source_file": "75225cc2-7050-4482-920a-0c809fbc01b1",
+   "selection": {
+    "pV": 51.1,
+    "varcoV": 102.5,
+    "nPVIv": 108.4,
+    "dC": 67.7
+   },
+   "gender_source": "F0",
+   "f0": 126
+  },
+  {
+   "id": "ar_ma_04",
+   "lang": "ar_ma",
+   "sent": "dv_9c96a0fd-5f17-452c-93b9-a18d1cfe5098",
+   "text": "شويات الف مبروك كامل",
+   "gender": "MALE",
+   "file": "audio/ar_ma_04.mp3",
+   "source_file": "9c96a0fd-5f17-452c-93b9-a18d1cfe5098",
+   "selection": {
+    "pV": 43.1,
+    "varcoV": 90.8,
+    "nPVIv": 73.8,
+    "dC": 86.5
+   },
+   "gender_source": "F0",
+   "f0": 134
+  },
+  {
+   "id": "ar_ma_05",
+   "lang": "ar_ma",
+   "sent": "dv_df1a6083-47a3-4cb9-8abc-6fab585e3ce8",
+   "text": "الفرق بين الزبده والزيت",
+   "gender": "MALE",
+   "file": "audio/ar_ma_05.mp3",
+   "source_file": "df1a6083-47a3-4cb9-8abc-6fab585e3ce8",
+   "selection": {
+    "pV": 60.8,
+    "varcoV": 100.3,
+    "nPVIv": 108.4,
+    "dC": 77.2
+   },
+   "gender_source": "F0",
+   "f0": 130
+  },
+  {
+   "id": "ar_ma_06",
+   "lang": "ar_ma",
+   "sent": "dv_31ae673d-fae8-40ef-a568-09e820f49746",
+   "text": "شخص هنا في الدور فاطمه بنت شريفه في السكن",
+   "gender": "FEMALE",
+   "file": "audio/ar_ma_06.mp3",
+   "source_file": "31ae673d-fae8-40ef-a568-09e820f49746",
+   "selection": {
+    "pV": 48.9,
+    "varcoV": 73.2,
+    "nPVIv": 75.5,
+    "dC": 71.9
+   },
+   "gender_source": "F0",
+   "f0": 254
+  },
+  {
+   "id": "ar_ma_07",
+   "lang": "ar_ma",
+   "sent": "dv_4739a78c-1e72-4874-a7cc-efe31477a312",
+   "text": "معكم اكرم بالنس ام لثلاثه ابناء",
+   "gender": "FEMALE",
+   "file": "audio/ar_ma_07.mp3",
+   "source_file": "4739a78c-1e72-4874-a7cc-efe31477a312",
+   "selection": {
+    "pV": 51.4,
+    "varcoV": 75.6,
+    "nPVIv": 73.9,
+    "dC": 57.3
+   },
+   "gender_source": "F0",
+   "f0": 222
+  },
+  {
+   "id": "ar_ma_08",
+   "lang": "ar_ma",
+   "sent": "dv_b211bc8e-eaf0-4698-af5e-b482a6369adf",
+   "text": "نحيف اول ضروسها تعطيك تجارب قصيره",
+   "gender": "FEMALE",
+   "file": "audio/ar_ma_08.mp3",
+   "source_file": "b211bc8e-eaf0-4698-af5e-b482a6369adf",
+   "selection": {
+    "pV": 56.1,
+    "varcoV": 80.1,
+    "nPVIv": 83.0,
+    "dC": 45.1
+   },
+   "gender_source": "F0",
+   "f0": 204
+  },
+  {
+   "id": "ar_ma_09",
+   "lang": "ar_ma",
+   "sent": "dv_4c7b60e3-8ef2-4c02-8325-9a28718c8937",
+   "text": "منير فيحان قلبهم فدعوا سريع ونحيف في الحويجه محتاجه",
+   "gender": "FEMALE",
+   "file": "audio/ar_ma_09.mp3",
+   "source_file": "4c7b60e3-8ef2-4c02-8325-9a28718c8937",
+   "selection": {
+    "pV": 59.3,
+    "varcoV": 81.8,
+    "nPVIv": 77.0,
+    "dC": 48.6
+   },
+   "gender_source": "F0",
+   "f0": 262
+  },
+  {
+   "id": "ar_ma_10",
+   "lang": "ar_ma",
+   "sent": "dv_00e29b28-7bf6-4b7d-b3ca-09a7ae6efd0f",
+   "text": "انا رنيت غازي",
+   "gender": "FEMALE",
+   "file": "audio/ar_ma_10.mp3",
+   "source_file": "00e29b28-7bf6-4b7d-b3ca-09a7ae6efd0f",
+   "selection": {
+    "pV": 69.5,
+    "varcoV": 61.6,
+    "nPVIv": 83.5,
+    "dC": 43.8
+   },
+   "gender_source": "F0",
+   "f0": 333
+  }
+ ],
+ "_selection": "Enregistrements choisis pour illustrer les classes rythmiques, analyse avec filtre passe-haut à 80 Hz. Réservoir : partition dev de FLEURS, 830 enregistrements originaux DVoice. Exclusion des segmentations douteuses (intervalle consonantique > 300 ms ou vocalique > 450 ms) et, pour DVoice, des enregistrements saturés. Score = -%V + VarcoV + nPVI-V + ΔC (z-scores), signe inversé pour les langues iso-syllabiques. Darija : 5 voix masculines et 5 féminines (genre estimé d'après F0), voix calmes et peu bruitées en priorité. Non représentatif de chaque langue."
+}

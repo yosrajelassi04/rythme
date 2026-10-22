@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Écouter le rythme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!--
+  CONTENU DE LA PAGE
+  Tout le texte visible est ci-dessous, en HTML simple : modifiez-le directement.
+  Les sections sont repérées par des commentaires « 1. », « 2. »...
+  Ne changez pas les attributs id="..." : le code (assets/app.js) s'en sert.
+-->
+<main>
+  <header class="read">
+    <span class="eyebrow">Phonétique · rythme des langues</span>
+    <h1>Écouter le rythme des langues</h1>
+    <p class="lead">Ce qu'on appelle le rythme d'une langue, et comment le mesurer à partir du signal.</p>
+    <p class="meta">Exemples audio : 10 enregistrements par langue, tirés de FLEURS (français, espagnol, italien, anglais, allemand) et de DVoice (arabe marocain). Toutes les mesures sont calculées en direct dans votre navigateur.</p>
+  </header>
+
+  <!-- 1. Le rythme -->
+  <section aria-labelledby="s-rythme">
+    <span class="eyebrow">1 · Le rythme</span>
+    <h2 id="s-rythme">Deux façons de répartir le temps</h2>
+    <p class="read">Toutes les langues n'organisent pas le temps de la même façon. La phonétique distingue deux grandes classes rythmiques. La différence vient du <b>contraste entre syllabes accentuées et non accentuées</b>.</p>
+    <div class="classes">
+      <article class="class-card syl">
+        <h3><span class="tag-syl">Iso-syllabique</span><small>syllable-timed</small></h3>
+        <div class="sylbars" aria-hidden="true">
+          <span style="width:15%;height:62%"></span><span class="strong" style="width:15%;height:72%"></span><span style="width:15%;height:60%"></span><span style="width:15%;height:66%"></span><span class="strong" style="width:15%;height:74%"></span><span style="width:15%;height:62%"></span>
+        </div>
+        <p>Chaque syllabe garde à peu près la même durée, accentuée ou non. Les voyelles restent pleines.</p>
+        <p class="example"><b>Canada</b> en français : ca – na – da. Les trois « a » sont identiques.</p>
+        <p class="example">Français, espagnol, italien, bengali, hindi, swahili.</p>
+      </article>
+      <article class="class-card str">
+        <h3><span class="tag-str">Iso-accentuelle</span><small>stress-timed</small></h3>
+        <div class="sylbars" aria-hidden="true">
+          <span class="strong" style="width:24%;height:95%"></span><span style="width:7%;height:35%"></span><span style="width:7%;height:30%"></span><span class="strong" style="width:24%;height:90%"></span><span style="width:8%;height:38%"></span><span class="strong" style="width:22%;height:85%"></span>
+        </div>
+        <p>Les syllabes accentuées sont longues et marquées. Les syllabes non accentuées sont comprimées et leurs voyelles <b>réduites</b> : elles deviennent courtes et neutres.</p>
+        <p class="example"><b>Canada</b> en anglais : <b>CA</b> – neu – deu. Seul le premier « a » est plein.</p>
+        <p class="example">Anglais, allemand, néerlandais, russe, arabe, thaï.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2. Corrélats -->
+  <section aria-labelledby="s-correlats">
+    <span class="eyebrow">2 · Les corrélats acoustiques</span>
+    <h2 id="s-correlats">Ce que l'on mesure</h2>
+    <p class="read">On découpe la parole en <span class="tag-v">intervalles vocaliques</span> (suites de voyelles) et <span class="tag-c">intervalles consonantiques</span> (suites de consonnes entre deux voyelles), puis on mesure leurs durées. Les mesures ci-dessous résument ces durées en quelques nombres.</p>
+    <div class="measures">
+      <article class="m-card">
+        <span class="name">%V</span>
+        <p>Part du temps de parole occupée par les voyelles.</p>
+        <div class="formula">%V = 100 × Σ durées V ÷ (Σ durées V + Σ durées C)</div>
+        <p class="expect">Plus faible en <span class="tag-str">iso-accentuel</span> : les voyelles réduites sont courtes. Ramus et al. (1999).</p>
+      </article>
+      <article class="m-card">
+        <span class="name">ΔC  ·  ΔV</span>
+        <p>Écart-type des durées des intervalles consonantiques (ΔC) ou vocaliques (ΔV), en millisecondes.</p>
+        <div class="formula">ΔC = écart-type(c₁, c₂, …, c_N)</div>
+        <p class="expect">ΔC plus élevé en <span class="tag-str">iso-accentuel</span> : on passe d'une consonne seule à des groupes comme <i>-ngths</i>. Ramus et al. (1999).</p>
+      </article>
+      <article class="m-card">
+        <span class="name">VarcoC  ·  VarcoV</span>
+        <p>ΔC et ΔV augmentent quand on parle lentement. Le Varco divise l'écart-type par la durée moyenne, ce qui le rend indépendant du débit.</p>
+        <div class="formula">VarcoC = 100 × ΔC ÷ moyenne(c)</div>
+        <p class="expect">Même tendance que ΔC et ΔV, sans l'effet du débit. Dellwo (2006).</p>
+      </article>
+      <article class="m-card">
+        <span class="name">nPVI  ·  rPVI</span>
+        <p>Écart moyen de durée entre deux intervalles <b>voisins</b>. Contrairement à l'écart-type, il tient compte de l'ordre : il capte l'alternance long / court.</p>
+        <div class="formula">nPVI = 100 × moyenne | (dₖ − dₖ₊₁) ÷ ((dₖ + dₖ₊₁)/2) |</div>
+        <div class="pvi-demo" id="pviDemo" aria-label="Exemples de valeurs de nPVI"></div>
+        <p class="expect">Plus élevé en <span class="tag-str">iso-accentuel</span>. Le nPVI est normalisé (indépendant du débit), le rPVI est brut. Grabe &amp; Low (2002).</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3. Mesurer -->
+  <section aria-labelledby="s-mesure">
+    <span class="eyebrow">3 · La mesure automatique</span>
+    <h2 id="s-mesure">Du signal aux intervalles</h2>
+    <p class="read">Ramus et Grabe &amp; Low découpaient les voyelles et les consonnes à la main. Sur un grand corpus, il faut le faire automatiquement. Voici la chaîne utilisée pour les enregistrements ci-dessous.</p>
+    <ol class="steps">
+      <li><b>Découper en trames</b>On coupe d'abord les graves sous 80 Hz (dérive lente du micro, ronflement du secteur), qui sinon passent pour de la voix. Le signal est ensuite découpé en trames de 32 ms, toutes les 10 ms.</li>
+      <li><b>Repérer les pauses</b>Les trames de très faible énergie sont du silence. Un silence de plus de 150 ms est une pause, exclue des mesures. Un silence plus court peut être l'occlusion d'une consonne (p, t, k) ou une micro-pause entre deux mots : il est affiché à part, et un réglage décide s'il compte comme consonantique.</li>
+      <li><b>Repérer le voisement</b>Si la trame est périodique (les cordes vocales vibrent, il y a une F0), elle est voisée.</li>
+      <li><b>Former les intervalles</b>Deux modes au choix. <i>Voisé / non voisé</i>, comme Dey &amp; Saha : tout ce qui est voisé compte comme voyelle, donc m, n, l sont rangés avec les voyelles. <i>Vocalique</i> : dans une zone voisée, les voyelles sont plus fortes que les consonnes voisées ; on repère ces sommets d'énergie et on ne garde comme voyelle que leur voisinage immédiat. Dans « mana », on obtient ainsi deux voyelles (les « a ») et deux consonnes (m, n), au lieu d'un seul bloc vocalique.</li>
+      <li><b>Calculer les mesures</b>%V, ΔC, Varco, PVI… à partir des durées, en coupant les paires aux pauses.</li>
+    </ol>
+    <p class="note read"><b>Remarque.</b> Voisé n'est pas synonyme de voyelle : m, n, l, r, z, v, b sont aussi voisés. Dans « mana », tout est voisé, et le mode « voisé » ne voit qu'un seul intervalle vocalique. %V est alors surestimé. Le mode « vocalique » corrige en partie ce biais, sans le supprimer.</p>
+  </section>
+
+  <!-- 4. Laboratoire -->
+  <section aria-labelledby="s-lab">
+    <span class="eyebrow">4 · Quelques enregistrements</span>
+    <h2 id="s-lab">Écouter et voir les intervalles</h2>
+    <p class="read">Choisissez une langue, puis lancez la lecture. Le volume de lecture est égalisé entre les extraits, certains corpus étant enregistrés beaucoup plus bas que d'autres. Le curseur suit l'audio sur le signal découpé. Cliquez sur un intervalle pour n'écouter que lui.</p>
+
+    <div class="lab" id="lab">
+      <div class="lab-controls">
+        <div class="group" role="group" aria-label="Langue">
+          <span class="group-label">Langue</span>
+          <div class="group" id="langBtns"></div>
+        </div>
+        <div class="group" role="group" aria-label="Phrase">
+          <span class="group-label">Phrase</span>
+          <select id="sentSel" aria-label="Phrase"></select>
+        </div>
+        <label class="filebtn" for="fileIn">Analyser mon fichier
+          <input type="file" id="fileIn" accept="audio/*">
+        </label>
+      </div>
+
+      <div class="sentence" id="sentence" aria-live="polite"></div>
+
+      <div class="lab-controls">
+        <button type="button" class="play" id="playBtn">▶ Lire la phrase</button>
+        <div class="group" role="group" aria-label="Mode de segmentation">
+          <span class="group-label">Segmentation</span>
+          <button type="button" id="modeVoiced" aria-pressed="false">Voisé / non voisé</button>
+          <button type="button" id="modeVocalic" aria-pressed="true">Vocalique</button>
+        </div>
+      </div>
+
+      <div class="wave-wrap">
+        <canvas id="wave" aria-label="Forme d'onde avec les intervalles vocaliques et consonantiques"></canvas>
+        <div id="tip" hidden></div>
+      </div>
+      <p class="status">Axe horizontal : le temps, en secondes. Axe vertical : l'amplitude du signal (sans unité). La bande colorée en bas indique le type de chaque intervalle.</p>
+      <div class="legend">
+        <span><i style="background:var(--v)"></i>Intervalle vocalique</span>
+        <span><i style="background:var(--c)"></i>Intervalle consonantique</span>
+        <span><i style="background:repeating-linear-gradient(120deg,var(--c) 0 2px,transparent 2px 4px)"></i>Silence court (occlusion ou micro-pause)</span>
+        <span><i style="background:var(--p);opacity:.5"></i>Pause (exclue des mesures)</span>
+      </div>
+      <div class="now" id="now" aria-live="polite"></div>
+
+      <div class="dur-strip" aria-label="Durées successives des intervalles">
+        <p class="status">Chaque barre est un intervalle, dans l'ordre où il apparaît dans la phrase (de gauche à droite). Sa hauteur est sa durée. Les deux lignes ont la même échelle : <span class="mono" id="barsMax"></span> pour la barre la plus haute. Survolez une barre pour lire sa durée.</p>
+        <div class="dur-row"><span class="lbl">Durées vocaliques</span><div class="dur-bars v" id="barsV"></div></div>
+        <div class="dur-row"><span class="lbl">Durées consonantiques</span><div class="dur-bars c" id="barsC"></div></div>
+      </div>
+
+      <div class="results" id="results"></div>
+
+      <details class="settings">
+        <summary>Réglages de la segmentation</summary>
+        <div class="settings-grid">
+          <label for="vthr">Seuil de voisement : <span class="mono" id="vthrVal"></span>
+            <input type="range" id="vthr" min="0.3" max="0.8" step="0.05" value="0.5">
+            <span class="status">Plus il est haut, moins de trames sont jugées voisées.</span>
+          </label>
+          <label for="silf">Seuil de silence : <span class="mono" id="silfVal"></span>
+            <input type="range" id="silf" min="0.05" max="0.5" step="0.05" value="0.25">
+            <span class="status">Fraction de l'écart entre le bruit de fond et le niveau de parole (au moins 6 dB). À augmenter si du bruit de fond est pris pour des consonnes.</span>
+          </label>
+          <label for="minPause">Durée minimale d'une pause : <span class="mono" id="minPauseVal"></span>
+            <input type="range" id="minPause" min="40" max="300" step="10" value="150">
+            <span class="status">Un silence plus court est un « silence court » : occlusion de p, t, k ou micro-pause entre deux mots.</span>
+          </label>
+          <label for="shortSil" style="flex-direction:row;gap:8px;align-items:flex-start">
+            <input type="checkbox" id="shortSil" checked>
+            <span>Compter les silences courts comme consonantiques<br><span class="status">Cochée : comme Ramus et al., l'occlusion d'une consonne fait partie de l'intervalle consonantique. Décochée : chaque silence court coupe la phrase comme une pause.</span></span>
+          </label>
+        </div>
+      </details>
+      <p class="status" id="labStatus">Chargement de l'audio…</p>
+    </div>
+  </section>
+
+  <!-- 5. Comparaison -->
+  <section aria-labelledby="s-compare">
+    <span class="eyebrow">5 · Comparer les langues</span>
+    <h2 id="s-compare">Les 60 enregistrements dans le plan des mesures</h2>
+    <p class="read">Ramus et al. (1999) placent les langues dans le plan (%V, ΔC) : les langues iso-accentuelles en haut à gauche, les iso-syllabiques en bas à droite. Les petits points sont les enregistrements (10 par langue), les grands points la moyenne de chaque langue. Cliquez sur un point pour l'écouter.</p>
+    <div class="compare">
+      <div class="axis-pick">
+        <label for="axX">Axe horizontal <select id="axX"></select></label>
+        <label for="axY">Axe vertical <select id="axY"></select></label>
+        <label for="showAll"><input type="checkbox" id="showAll" checked> Afficher chaque phrase</label>
+        <span class="legend"><span><i style="background:var(--syl);border-radius:50%"></i>Iso-syllabique</span><span><i style="background:var(--str)"></i>Iso-accentuelle</span></span>
+      </div>
+      <div class="scatter-wrap"><svg id="scatter" viewBox="0 0 640 400" role="img" aria-label="Nuage de points des mesures de rythme"></svg></div>
+      <p class="status" id="scatterStatus">Analyse des extraits…</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <span><b>Audio.</b> Français, espagnol, italien, anglais, allemand : corpus FLEURS (Conneau et al., 2022, Google), partition « dev », licence CC BY 4.0. Arabe marocain : corpus DVoice v2.0 (Naira, Allak &amp; Benelallam, 2022), enregistrements originaux uniquement (sans augmentation de données), licence CC BY 4.0. Tous les fichiers sont convertis en MP3 mono 16 kHz, sans autre modification.</span>
+    <span><b>Références</b></span>
+    <ul>
+      <li>F. Ramus, M. Nespor, J. Mehler (1999). Correlates of linguistic rhythm in the speech signal. <i>Cognition</i> 73(3).</li>
+      <li>E. Grabe, E. L. Low (2002). Durational variability in speech and the rhythm class hypothesis. <i>Papers in Laboratory Phonology 7</i>.</li>
+      <li>V. Dellwo (2006). Rhythm and speech rate: a variation coefficient for ΔC.</li>
+      <li>A. Arvaniti (2012). The usefulness of metrics in the quantification of speech rhythm. <i>Journal of Phonetics</i> 40(3).</li>
+      <li>S. Dey, G. Saha (2024). Spoken language identification using rhythmic categorization: syllable-timed and stress-timed. <i>SPCOM</i>.</li>
+      <li>A. Conneau et al. (2022). FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech. <i>SLT</i>.</li>
+      <li>A. M. Naira, A. Allak, I. Benelallam (2022). DVoice: an open source dataset for automatic speech recognition on African languages and dialects. Zenodo, doi:10.5281/zenodo.6342622.</li>
+      <li>S. Ghazali, R. Hamdi, M. Barkat (2002). Speech rhythm variation in Arabic dialects. <i>Speech Prosody</i>.</li>
+      <li>R. Hamdi, M. Barkat-Defradas, E. Ferragne, F. Pellegrino (2004). Speech timing and rhythmic structure in Arabic dialects: a comparison of two approaches. <i>Interspeech</i>.</li>
+    </ul>
+  </footer>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
